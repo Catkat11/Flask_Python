@@ -13,3 +13,6 @@ Projekt "Higher_lower_flask" to prosta aplikacja internetowa, która wykorzystuj
 
 
 Projekt "REST_cafe_wifi" wykorzystuje biblioteki Flask i SQLAlchemy. Jest to aplikacja internetowa umożliwiająca przeglądanie kawiarni, ich lokalizacji i udogodnień, takich jak dostęp do WiFi, gniazdka elektryczne itp. użytkownik może również dodawać nowe kawiarnie, aktualizować ceny kawy i zgłaszać zamknięcie kawiarni.
+
+
+Projekt "top_movies_website_sql" wykorzystuje biblioteki Flask, Flask-Bootstrap, Flask-SQLAlchemy, Flask-WTF oraz requests. Działa jako aplikacja do dodawania, oceniania i usuwania filmów z bazy danych, korzystając z API The Movie Database (TMDb) do pobierania informacji o filmach.
