@@ -16,3 +16,6 @@ Projekt "REST_cafe_wifi" wykorzystuje biblioteki Flask i SQLAlchemy. Jest to apl
 
 
 Projekt "top_movies_website_sql" wykorzystuje biblioteki Flask, Flask-Bootstrap, Flask-SQLAlchemy, Flask-WTF oraz requests. Działa jako aplikacja do dodawania, oceniania i usuwania filmów z bazy danych, korzystając z API The Movie Database (TMDb) do pobierania informacji o filmach.
+
+
+Projekt "library_with_sql" wykorzystuje Flask do stworzenia prostej aplikacji do zarządzania biblioteką książek. Wykorzystuje biblioteki takie jak Flask, Flask-SQLAlchemy do obsługi bazy danych SQLite oraz WTForms do obsługi formularzy HTML. Umożliwia dodawanie, edycję, usuwanie i wyświetlanie informacji o książkach w bibliotece.
