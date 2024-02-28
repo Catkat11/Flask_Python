@@ -10,3 +10,6 @@ Projekt "Flask_authentication" wykorzystuje biblioteki Flask, SQLAlchemy oraz Fl
 
 
 Projekt "Higher_lower_flask" to prosta aplikacja internetowa, która wykorzystuje Flask do losowania liczby od 0 do 9, a użytkownik próbuje zgadnąć tę liczbę, wpisując swój wybór w przeglądarkę.
+
+
+Projekt "REST_cafe_wifi" wykorzystuje biblioteki Flask i SQLAlchemy. Jest to aplikacja internetowa umożliwiająca przeglądanie kawiarni, ich lokalizacji i udogodnień, takich jak dostęp do WiFi, gniazdka elektryczne itp. użytkownik może również dodawać nowe kawiarnie, aktualizować ceny kawy i zgłaszać zamknięcie kawiarni.
