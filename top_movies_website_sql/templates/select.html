@@ -1,0 +1,15 @@
+{% extends 'base.html' %} <!-- Extending the base template -->
+
+{% block title %}Select Movie{% endblock %} <!-- Setting the title of the page -->
+
+{% block content %}
+<div class="container">
+    <h1 class="heading">Select Movie</h1> <!-- Heading for the page -->
+    {% for movie in options: %} <!-- Looping through each movie option -->
+  <p>
+    <a href="{{ url_for('find_movie', id=movie.id) }}"> {{movie.title}} - {{movie.release_date}}</a> <!-- Link to find more information about the movie -->
+  </p>
+    {% endfor %}
+
+</div>
+{% endblock %}
