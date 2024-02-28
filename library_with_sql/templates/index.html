@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Library</title>
+</head>
+<body>
+    <h1>My Library</h1>
+    <!-- Check if the library is empty -->
+    {% if books == []: %}
+        <p>Library is empty</p>
+    {% endif %}
+    <ul>
+        <!-- Loop through each book in the library -->
+        {% for book in books %}
+        <li>
+            <!-- Link to delete the book -->
+            <a href="{{ url_for('delete', id=book.id) }}">Delete</a>
+            <!-- Display the book's title, author, and rating -->
+            {{book.title}} - {{book.author}} - {{book.rating}}/10
+            <!-- Link to edit the book's rating -->
+            <a href="{{ url_for('edit', id=book.id) }}">Edit Rating</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <!-- Link to add a new book -->
+    <a href="{{url_for('add')}}">Add New Book</a>
+</body>
+</html>
