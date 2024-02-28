@@ -7,3 +7,6 @@ Projekt "My_personal_site" wykorzystuje Flask do uruchomienia serwera i renderow
 
 
 Projekt "Flask_authentication" wykorzystuje biblioteki Flask, SQLAlchemy oraz Flask-Login. Jego działanie polega na tworzeniu aplikacji internetowej umożliwiającej rejestrację użytkowników, logowanie, wylogowywanie się oraz udostępnianie chronionych zasobów, takich jak pliki do pobrania, po uwierzytelnieniu.
+
+
+Projekt "Higher_lower_flask" to prosta aplikacja internetowa, która wykorzystuje Flask do losowania liczby od 0 do 9, a użytkownik próbuje zgadnąć tę liczbę, wpisując swój wybór w przeglądarkę.
