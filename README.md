@@ -4,3 +4,6 @@ Projekt "Flask_blog" wykorzystuje biblioteki Flask, SQLAlchemy, Flask-Login, Fla
 
 
 Projekt "My_personal_site" wykorzystuje Flask do uruchomienia serwera i renderowania szablonu strony HTML5 UP, który prezentuje informacje o mnie i zawiera linki do moich profili w mediach społecznościowych.
+
+
+Projekt "Flask_authentication" wykorzystuje biblioteki Flask, SQLAlchemy oraz Flask-Login. Jego działanie polega na tworzeniu aplikacji internetowej umożliwiającej rejestrację użytkowników, logowanie, wylogowywanie się oraz udostępnianie chronionych zasobów, takich jak pliki do pobrania, po uwierzytelnieniu.
