@@ -19,3 +19,6 @@ Projekt "top_movies_website_sql" wykorzystuje biblioteki Flask, Flask-Bootstrap,
 
 
 Projekt "library_with_sql" wykorzystuje Flask do stworzenia prostej aplikacji do zarządzania biblioteką książek. Wykorzystuje biblioteki takie jak Flask, Flask-SQLAlchemy do obsługi bazy danych SQLite oraz WTForms do obsługi formularzy HTML. Umożliwia dodawanie, edycję, usuwanie i wyświetlanie informacji o książkach w bibliotece.
+
+
+Projekt "coffee_rating_website" wykorzystuje biblioteki Flask, Flask-Bootstrap oraz Flask-WTF. Jest to aplikacja internetowa umożliwiająca użytkownikom dodawanie i przeglądanie informacji o kawiarniach, takich jak nazwa, lokalizacja, godziny otwarcia oraz oceny kawy, szybkości wifi i dostępności gniazdek elektrycznych.
